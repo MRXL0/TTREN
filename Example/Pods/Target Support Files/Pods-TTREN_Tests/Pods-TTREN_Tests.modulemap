@@ -1,0 +1,6 @@
+framework module Pods_TTREN_Tests {
+  umbrella header "Pods-TTREN_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
