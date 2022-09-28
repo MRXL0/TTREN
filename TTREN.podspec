@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TTREN'
-  s.version          = '0.2.1'
-  s.summary          = 'A short description of TTREN.'
+  s.version          = '0.2.2'
+  s.summary          = '基础库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  这里填写比summary更多的内容做为描述
+        DESC
 
   s.homepage         = 'https://github.com/MRXL0/TTREN.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TTREN/Classes/**/*'
+  s.source_files = 'TTREN/Classes/*'
   
   # s.resource_bundles = {
   #   'TTREN' => ['TTREN/Assets/*.png']
