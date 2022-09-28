@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		73FD1D116A877A815BC6F4575C80D7F2 /* TTREN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9290DD999F874E877EE98BA5033C1967 /* TTREN-dummy.m */; };
-		83C7B60B266D038C7BA15EE69CC4C253 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E02F24C5477D75C2D7B2E499C50689 /* ReplaceMe.m */; };
 		84E55337CB23AA070FFEAE0DA780AA45 /* Pods-TTREN_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA5D1F7B3885FADC358604070E8AAED /* Pods-TTREN_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA82A1D28E4281C004BB1C3 /* TTren.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA82A1B28E4281C004BB1C3 /* TTren.h */; };
+		8FA82A1E28E4281C004BB1C3 /* TTren.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA82A1C28E4281C004BB1C3 /* TTren.m */; };
 		B1E54220FAE2DFD0A4E71E1B6F6674C1 /* Pods-TTREN_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 250AE61B1D6B027223B36A397325AAE8 /* Pods-TTREN_Tests-dummy.m */; };
 		BD69989BB012D606244DDCF556A4232D /* TTREN-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2726EC58C704BD336BF5E992BC992119 /* TTREN-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5E49AB126C91C15484F9CAA3AEA12A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -27,10 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009457EB8FCCD75D5BE6C8D65475F9E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		009457EB8FCCD75D5BE6C8D65475F9E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0558D31F0B46549541E253FEF16881D1 /* Pods-TTREN_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTREN_Tests.modulemap"; sourceTree = "<group>"; };
 		0830EEAC1087EA00D549FA90EEDE8BE9 /* Pods-TTREN_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTREN_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		09E02F24C5477D75C2D7B2E499C50689 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TTREN/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0FA5D1F7B3885FADC358604070E8AAED /* Pods-TTREN_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTREN_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2322113962A7BDB8A803DFB533BCAB0E /* Pods-TTREN_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTREN_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		250AE61B1D6B027223B36A397325AAE8 /* Pods-TTREN_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTREN_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -40,13 +40,15 @@
 		69EA20297A48535385D5D3FE03F6C01C /* Pods-TTREN_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTREN_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7719D27D47CFD4FA53E417E69389755C /* TTREN.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTREN.modulemap; sourceTree = "<group>"; };
+		8FA82A1B28E4281C004BB1C3 /* TTren.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTren.h; sourceTree = "<group>"; };
+		8FA82A1C28E4281C004BB1C3 /* TTren.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTren.m; sourceTree = "<group>"; };
 		9290DD999F874E877EE98BA5033C1967 /* TTREN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTREN-dummy.m"; sourceTree = "<group>"; };
 		974B6EACA1EB9DF8BE206F5059F49190 /* TTREN */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTREN; path = TTREN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		975FA23BF6FE234C46ECFE460A1971D0 /* Pods-TTREN_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTREN_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B19430FE2B331F6AC6DFA36E31F22A01 /* TTREN.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TTREN.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B19430FE2B331F6AC6DFA36E31F22A01 /* TTREN.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TTREN.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C290D49960B9941E114DEC82B3C871FF /* Pods-TTREN_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TTREN_Tests"; path = Pods_TTREN_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8ECD92C877E10537366EEA72C42094C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C8ECD92C877E10537366EEA72C42094C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D18067B0C59E56016D9B1AEDE5271727 /* TTREN-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TTREN-Info.plist"; sourceTree = "<group>"; };
 		DA0A8414D83D37EAFAA615FAD9FB7B81 /* Pods-TTREN_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTREN_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6EACD7F5F6D330A25D7138061BD87A2 /* TTREN-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTREN-prefix.pch"; sourceTree = "<group>"; };
@@ -125,7 +127,8 @@
 		76AA4D977DB5880B41CDCC0871459365 /* TTREN */ = {
 			isa = PBXGroup;
 			children = (
-				09E02F24C5477D75C2D7B2E499C50689 /* ReplaceMe.m */,
+				8FA82A1B28E4281C004BB1C3 /* TTren.h */,
+				8FA82A1C28E4281C004BB1C3 /* TTren.m */,
 				CB4AE13D69D13B02D2E5A4C446B51A72 /* Pod */,
 				26E4A449E494AC7267481FEE1EBEB41B /* Support Files */,
 			);
@@ -193,6 +196,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA82A1D28E4281C004BB1C3 /* TTren.h in Headers */,
 				BD69989BB012D606244DDCF556A4232D /* TTREN-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C7B60B266D038C7BA15EE69CC4C253 /* ReplaceMe.m in Sources */,
+				8FA82A1E28E4281C004BB1C3 /* TTren.m in Sources */,
 				73FD1D116A877A815BC6F4575C80D7F2 /* TTREN-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,8 +371,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
