@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		73FD1D116A877A815BC6F4575C80D7F2 /* TTREN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9290DD999F874E877EE98BA5033C1967 /* TTREN-dummy.m */; };
 		84E55337CB23AA070FFEAE0DA780AA45 /* Pods-TTREN_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA5D1F7B3885FADC358604070E8AAED /* Pods-TTREN_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FA82A1D28E4281C004BB1C3 /* TTren.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA82A1B28E4281C004BB1C3 /* TTren.h */; };
-		8FA82A1E28E4281C004BB1C3 /* TTren.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA82A1C28E4281C004BB1C3 /* TTren.m */; };
+		8FA82A2528E42D27004BB1C3 /* TTren.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA82A2328E42D27004BB1C3 /* TTren.m */; };
+		8FA82A2628E42D27004BB1C3 /* TTren.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA82A2428E42D27004BB1C3 /* TTren.h */; };
 		B1E54220FAE2DFD0A4E71E1B6F6674C1 /* Pods-TTREN_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 250AE61B1D6B027223B36A397325AAE8 /* Pods-TTREN_Tests-dummy.m */; };
 		BD69989BB012D606244DDCF556A4232D /* TTREN-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2726EC58C704BD336BF5E992BC992119 /* TTREN-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5E49AB126C91C15484F9CAA3AEA12A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -40,8 +40,8 @@
 		69EA20297A48535385D5D3FE03F6C01C /* Pods-TTREN_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTREN_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7719D27D47CFD4FA53E417E69389755C /* TTREN.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTREN.modulemap; sourceTree = "<group>"; };
-		8FA82A1B28E4281C004BB1C3 /* TTren.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTren.h; sourceTree = "<group>"; };
-		8FA82A1C28E4281C004BB1C3 /* TTren.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTren.m; sourceTree = "<group>"; };
+		8FA82A2328E42D27004BB1C3 /* TTren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTren.m; path = TTREN/Classes/TTren.m; sourceTree = "<group>"; };
+		8FA82A2428E42D27004BB1C3 /* TTren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTren.h; path = TTREN/Classes/TTren.h; sourceTree = "<group>"; };
 		9290DD999F874E877EE98BA5033C1967 /* TTREN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTREN-dummy.m"; sourceTree = "<group>"; };
 		974B6EACA1EB9DF8BE206F5059F49190 /* TTREN */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTREN; path = TTREN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		975FA23BF6FE234C46ECFE460A1971D0 /* Pods-TTREN_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTREN_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 		76AA4D977DB5880B41CDCC0871459365 /* TTREN */ = {
 			isa = PBXGroup;
 			children = (
-				8FA82A1B28E4281C004BB1C3 /* TTren.h */,
-				8FA82A1C28E4281C004BB1C3 /* TTren.m */,
+				8FA82A2428E42D27004BB1C3 /* TTren.h */,
+				8FA82A2328E42D27004BB1C3 /* TTren.m */,
 				CB4AE13D69D13B02D2E5A4C446B51A72 /* Pod */,
 				26E4A449E494AC7267481FEE1EBEB41B /* Support Files */,
 			);
@@ -196,7 +196,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FA82A1D28E4281C004BB1C3 /* TTren.h in Headers */,
+				8FA82A2628E42D27004BB1C3 /* TTren.h in Headers */,
 				BD69989BB012D606244DDCF556A4232D /* TTREN-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FA82A1E28E4281C004BB1C3 /* TTren.m in Sources */,
+				8FA82A2528E42D27004BB1C3 /* TTren.m in Sources */,
 				73FD1D116A877A815BC6F4575C80D7F2 /* TTREN-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
